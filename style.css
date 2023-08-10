@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: rgb(22, 160, 133);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.parent-container {
+  background-color: white;
+  max-width: 600px;
+  min-height: 300px;
+  padding: 20px 60px 30px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  color: rgb(22, 160, 133);
+}
+
+#quote-container {
+  display: flex;
+  flex-direction: column;
+}
+.quote-text {
+  font-size: 40px;
+  margin-top: 10px;
+}
+.quote-author {
+  margin-top: 20px;
+}
+
+.btn-container {
+  /* border: 2px solid red; */
+  margin-top: 50px;
+  display: flex;
+  gap: 10px;
+}
+.quote-btn,
+.quote-author {
+  margin-left: auto;
+}
+
+.quote-btn {
+  padding: 5px 10px;
+}
+.twitter-btn,
+.facebook-btn {
+  font-size: 20px;
+}
+
+.quote-btn,
+.twitter-btn,
+.facebook-btn {
+  background-color: rgb(22, 160, 133);
+
+  padding: 5px 10px;
+  color: white;
+  border-radius: 2px;
+}
+
+.quote-btn {
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
